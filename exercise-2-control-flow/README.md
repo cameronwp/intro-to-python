@@ -2,9 +2,7 @@
 
 Control flow is the idea of deciding when, how, what, and how many times code should run
 
-## Deciding When
-
-### `if` statements
+## `if` statements
 
 Syntax: a set of `if`, `elif` (else if), and `else` blocks. The first condition that matches is run. `elif` can be repeated multiple times. If `else` is used, it must be the last block.
 
@@ -54,4 +52,22 @@ for i in range(5):
     print(i) # 0 1 2 3 4
 ```
 
-The `range` function produces a list of numbers from 0 to the argument, exclusive. For [0, 5), this is 0, 1, 2, 3, 4
+The `range` function produces a list of numbers from 0 to the argument, exclusive. For [0, 5), this is `0, 1, 2, 3, 4`
+
+You can also iterate over the elements in a list
+
+```py
+us_cities = ["Anaheim", "Boston", "Chicago", "Detroit", "El Paso"]
+
+for city in us_cities:
+    print(city + " is in the United States")
+```
+
+Alternatively, you can iterate over list indices
+
+```py
+for c in range(len(cities):
+    # this uses f-string syntax
+    # https://docs.python.org/3/tutorial/inputoutput.html#formatted-string-literals
+    print(f"City {i}: {cities[i]}")
+```
