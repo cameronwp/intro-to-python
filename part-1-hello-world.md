@@ -68,11 +68,22 @@ Normal mathematical operations work as expected:
 2.0 * 3.0 # 6.0
 100 / 5 # 20
 2**3 # 8
+10 % 5 # 0
 ```
+
+Python follows PEMDAS.
 
 Python will change integers to floating point as necessary:
 
 `10 / 3 # 3.333...`
+
+You can perform the conversion between `float` and `int` manually if necessary.
+
+```py
+int(5.0) # 5
+int(5.9) # 5
+float(1) # 1.0
+```
 
 As will be useful later when we do control flow, comparisons are also available:
 

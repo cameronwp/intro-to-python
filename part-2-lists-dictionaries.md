@@ -13,11 +13,17 @@ subjects = ["algebra", "biology", "chemistry", "differential equations"]
 print(subjects) # same list as above
 ```
 
-**Lists are zero-indexed**. The first index in a list is 0. You can access elements in a list with square bracket notation.
+**Lists are zero-indexed**. The first index in a list is 0. You can access elements in a list with square bracket notation and integers.
 
 ```py
 subjects[0] # algebra
 subjects[4] # IndexError: list index out of range
+```
+
+Note that the indices need to be integers, not float. This does not work, for example
+
+```py
+subjects[1.0] # TypeError: list indices must be integers or slices, not float
 ```
 
 You can access elements in a list going backwards using negative numbers, eg.
@@ -88,19 +94,24 @@ for row in matrix:
 
 ## Exercise 2.1
 
-Write a function that takes a list of elements and returns the median (middle) element. If the length of the list is even, return the median element with a lower index.
-
-## Exercise 2.2
-
-A tuple is basically a lighter-weight verion of a list, mainly used in function returns. You can write them with parenthesis, like `(element0, element1). Write a function that takes the following list of numbers and returns the mean and median in a tuple.
+Write a function called `median` that takes a list of elements and returns the median (middle) element. If the length of the list is even, return the median element with a lower index. For example
 
 ```py
 list_of_numbers = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
+print(median(list_of_numbers)) # 5
+
+another_list_of_numbers = [3, 5, 7, 9, 11, 13, 15]
+print(median(another_list_of_numbers)) # 9
 ```
 
-### Bonus
+## Exercise 2.2
 
-Now calculate the mode of the list in the same function.
+A tuple is basically a lighter-weight verion of a list, mainly used in function returns. You can write them with parenthesis, like `(element0, element1). Write a function, `mean_and_median`, that takes the following list of numbers and returns the mean and median in a tuple.
+
+```py
+list_of_numbers = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
+mean_and_median(list_of_numbers) # (14.3, 5)
+```
 
 ## Dictionaries
 

@@ -45,3 +45,19 @@ When you `import package`, it will first check your `.venv` directory
 I will be using VS Code with its integrated terminal from now on.
 
 To get started, head over to [part-1-hello-world.md](./part-1-hello-world.md).
+
+## More Practice
+
+Want to keep practicing Python? Here's an incomplete list of some great resources.
+
+### Challenges
+
+1. [Advent of Code](https://adventofcode.com) - a coding competition every December (but available year round) with holiday themed challenges
+2. [Code Kata](http://codekata.com/)
+3. [Project Euler](https://projecteuler.net/)
+4. [Codewars](https://www.codewars.com/)
+
+### Books and Courses
+
+1. [Think Python](https://greenteapress.com/wp/think-python-2e/)
+2. [6.001 on MIT OCW](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/)

@@ -90,7 +90,7 @@ When you need to write a loop, `for` should be your first instinct, but a `while
 
 ## Exercise 3.1
 
-Dictionaries can be elements in a list. Write a function that takes the given list of dictionaries and outputs the number of universities that are more than 150 years old.
+Dictionaries can be elements in a list. Write a function, `old_school`, that takes the given list of dictionaries and outputs the number of universities that are more than 150 years old.
 
 ```py
 university_stats = [
@@ -115,11 +115,25 @@ university_stats = [
         "year_founded": 1836
     }
 ]
+
+old_school(university_stats) # 3
 ```
 
 ## Exercise 3.2
 
-Write a for-loop to produce the first 10 numbers of the [Fibonacci sequence](https://en.wikipedia.org/wiki/Fibonacci_number).
+To append, or add, an element to the end of list, use the `append` function. For example,
+
+```py
+drinking_apparatuses = ["cup"]
+drinking_apparatuses.append("mug")
+drinking_apparatuses # ['cup', 'mug']
+```
+
+Write a function, `fibo`, that takes a number `n` and uses a for-loop that produces the first `n` numbers of the [Fibonacci sequence](https://en.wikipedia.org/wiki/Fibonacci_number).
+
+```py
+fibo(10) # [1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
+```
 
 ## Exercise 3.3
 
@@ -130,3 +144,15 @@ names = ["amy", "becky", "cyrano", "daisy", "evelyn", "franny", "ginny", "lydia"
 ```
 
 Head over to [part-4-objects-classes](./part-4-objects-classes/) to learn how to make your own types.
+
+## Exercise 3.4 (Harder than you might think)
+
+Write a function, `mode`, that returns the mode of a list of numbers. If there is no mode, return `None`. Hint, there are many ways to solve this problem. You can use control flow logic alone or you can try using more advanced dictionary features like [`dict.setdefault`](https://docs.python.org/3/library/stdtypes.html#typesmapping) and [`dict.get`](https://docs.python.org/3/library/stdtypes.html#dict.get), and other built-in functions like [`max`](https://docs.python.org/3/library/functions.html#max).
+
+```py
+list_of_numbers = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
+mode(list_of_numbers) # 1
+
+another_list = [1, 2, 3]
+mode(another_list) # None
+```
