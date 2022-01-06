@@ -128,3 +128,5 @@ You can slice strings, not just lists. Given the following list of names, print 
 ```py
 names = ["amy", "becky", "cyrano", "daisy", "evelyn", "franny", "ginny", "lydia"]
 ```
+
+Head over to [part-4-objects-classes](./part-4-objects-classes/) to learn how to make your own types.

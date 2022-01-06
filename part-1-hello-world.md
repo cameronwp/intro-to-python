@@ -216,3 +216,5 @@ hypoteneuse = 5
 value = sine(opposite, hypoteneuse)
 print(value) # 0.6
 ```
+
+Next, you'll learn about collections of data in [part-2-lists-dictionaries](./part-2-lists-dictionaries.md).

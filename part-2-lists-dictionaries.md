@@ -172,3 +172,5 @@ if university["enrollment"]["grad"] > 5000:
 ```
 
 (According to Wikipedia, MIT has 4,638 undergrads and 7,296 grad students.)
+
+Next, you'll learn how to control the flow of operations in your code in [part-3-control-flow](./part-3-control-flow.md).
