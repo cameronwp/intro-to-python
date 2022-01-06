@@ -43,6 +43,5 @@ When you `import package`, it will first check your `.venv` directory
 3. Jupyter notebook. This is out of scope for this lecture, but it's a great way to tell a story with Python
 
 I will be using VS Code with its integrated terminal from now on.
-## Exercises
 
-See the exercise folders to keep going.
+To get started, head over to [](./part-1-hello-world.md).

@@ -122,3 +122,7 @@ import numpy as np
 
 # result should be: [10., 13.33333333, 16.66666667, 20.]
 ```
+
+### 5.2
+
+Can you get up and running with `pandas` on your own? It's a great library for data analysis. Try going through their [tutorial](https://pandas.pydata.org/docs/user_guide/10min.html). FYI, you don't have `panda`s installed yet, so you need to use `pip` to get it first.
