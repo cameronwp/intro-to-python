@@ -126,3 +126,5 @@ import numpy as np
 ### 5.2
 
 Can you get up and running with `pandas` on your own? It's a great library for data analysis. Try going through their [tutorial](https://pandas.pydata.org/docs/user_guide/10min.html). FYI, you don't have `panda`s installed yet, so you need to use `pip` to get it first.
+
+Head over to [part-6-debugging](./part-6-debugging/) to try your hand at debugging Python code.
