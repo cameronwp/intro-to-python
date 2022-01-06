@@ -26,17 +26,11 @@ pdb.set_trace()
 
 `pdb.set_trace()` will stop execution and open up a REPL in your shell to let you inspect the current state of the stack. I won't go into further detail here, but it's worth trying on your own.
 
-## VS Code
+## The Sample Code
 
-See the [official documentation on VS Code + Python debugging](https://code.visualstudio.com/docs/python/debugging)
+`main.py` contains a `Stringfy` function that is supposed to turn an integer 0-99 into an English string. For example: `11` -> `"eleven"`
 
-Install the official Python extensions from Microsoft:
-1. Python ([home page](https://marketplace.visualstudio.com/items?itemName=ms-python.python))
-2. Pylance ([home page](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance))
-
-You can now run Python and set breakpoints from VS Code. The easiest way to get started is to first click on the "Run and Debug" menu on the left side of the screen. You should see an option to "create a launch.json file". Click it and select "Python". You should see a new file get added to the repo under `.vscode/launch.json`. This is a configuration file for launching and debugging Python from VS Code. For now, you won't need to edit the configuration file, but you may need to edit it with more complex projects. See the official documentation linked above.
-
-You should also note that installing these extensions should give you hints when you hover your mouse cursor over Python code. This is really helpful! Try hitting tab as you work and VS Code will help you pick variables and find methods. This is a feature in VS Code called [Intellisense](https://code.visualstudio.com/docs/editor/intellisense).
+We'll be looking at it in a moment.
 
 ## Testing
 
@@ -49,6 +43,18 @@ python -m unittest part-6-debugging/test_main.py
 ```
 
 You should see some tests fail.
+
+## VS Code
+
+See the [official documentation on VS Code + Python debugging](https://code.visualstudio.com/docs/python/debugging)
+
+Install the official Python extensions from Microsoft:
+1. Python ([home page](https://marketplace.visualstudio.com/items?itemName=ms-python.python))
+2. Pylance ([home page](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance))
+
+You can now run Python and set breakpoints from VS Code. The easiest way to get started is to open a Python file (any file that ends in `.py`) and then click on the "Run and Debug" menu on the left side of the screen. You should see an option to "create a launch.json file". Click it and select "Python File". You should see a new file get added to the repo under `.vscode/launch.json`. This is a configuration file for launching and debugging Python from VS Code. For now, you won't need to edit the configuration file, but you may need to edit it with more complex projects. See the official documentation linked above.
+
+You should also note that installing these extensions should give you hints when you hover your mouse cursor over Python code. This is really helpful! Try hitting tab as you work and VS Code will help you pick variables and find methods. This is a feature in VS Code called [Intellisense](https://code.visualstudio.com/docs/editor/intellisense).
 
 ## Exercise 6.1
 

@@ -1,5 +1,7 @@
 # An Advanced, Practical Intro to Python - Momentum Lecture IAP 2022
 
+Lecture slides [on G docs](https://docs.google.com/presentation/d/1EbSUXyQinrFr7bZj_RUKujZgWHKgHTAt11WQXsDJ7Kw/edit#slide=id.p)
+
 ## Introduction
 
 ### Additional Resources
@@ -8,10 +10,10 @@
 
 ### Development Environment - Installation
 
-1. Install Visual Studio Code aka VS Code aka VSCode aka Code: [](https://code.visualstudio.com/)
-2. Make sure you have Python 3 installed:
+1. Install Visual Studio Code aka VS Code aka VSCode aka Code: [https://code.visualstudio.com](https://code.visualstudio.com/)
+2. Make sure you have Python 3 installed: [download here](https://www.python.org/downloads/)
   a. MacOS/Linux: `which python` (you probably already have it installed). If you get Python 2, try `which python3` and then use `python3` for the rest of this lecture
-  b. Windows: TODO
+  b. Windows: try `python --version` from PowerShell or Windows Terminal
 
 ### Development Environment - virtual env
 
@@ -19,7 +21,10 @@ A Python virtual environment (venv) makes it easy to manage dependencies across 
 
 1. Go to your project directory: `cd your/project/directory`
 2. Create a virtual environment: `python -m venv .venv`
-3. Activate the virtual environment: `./.venv/bin/activate`
+3. Activate the virtual environment:
+  * MacOS/Linux: `./.venv/bin/activate`
+  * Windows: `.\.venv\Scripts\activate` (if you run into a permissions error, [try this](https://www.stanleyulili.com/powershell/solution-to-running-scripts-is-disabled-on-this-system-error-on-powershell/)
+))
 4. If you want to leave your virtual environment: `deactivate`
 
 For the future, any time you want to use your venv, just use steps 1 and 3.

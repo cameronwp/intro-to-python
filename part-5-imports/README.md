@@ -8,7 +8,7 @@ Libraries (or packages) are just collections of code written by other people. Th
 
 ### Usage
 
-Regardless of where the libarary is from, you'll use it in your code the same way with an `import` statement. There are generally three ways you can use an import statement:
+Regardless of where the library is from, you'll use it in your code the same way with an `import` statement. There are generally three ways you can use an import statement:
 
 1. Import the library as an object
 2. Import 1+ specific exports from the library into the current namespace
@@ -74,7 +74,7 @@ Feel free to look through `example.py` and `environment.py` to see how they mana
 
 ### Freezing Dependencies
 
-If you're working on a Python project and you've added new dependencies, you should add them to your `requirements.txt` file. To do so, you can use the `pip freeze` command like so
+If you're working on a Python project and you've added new dependencies, you should add them to your `requirements.txt` file. To do so, you can use the [`pip freeze`](https://pip-python3.readthedocs.io/en/latest/reference/pip_freeze.html#) command like so
 
 ```sh
 pip freeze > requirements.txt
@@ -127,4 +127,4 @@ import numpy as np
 
 Can you get up and running with `pandas` on your own? It's a great library for data analysis. Try going through their [tutorial](https://pandas.pydata.org/docs/user_guide/10min.html). FYI, you don't have `panda`s installed yet, so you need to use `pip` to get it first.
 
-Head over to [part-6-debugging](./part-6-debugging/) to try your hand at debugging Python code.
+Head over to [part-6-debugging](/part-6-debugging/) to try your hand at debugging Python code.

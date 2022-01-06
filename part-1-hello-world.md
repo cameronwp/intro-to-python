@@ -191,6 +191,8 @@ def function_name(argument1, argument2, ...):
     return value
 ```
 
+Note that we use whitespace instead of curly braces (as often seen in other languages) to control the body of the function. Every line in the function should be indented by 4 spaces. The next line of code that is not indented by 4 spaces will implicitly end the function at the last line that was indented by 4 spaces.
+
 `return` indicates that the function will output (not print) a value, which you can use after you call the function. For example:
 
 ```py

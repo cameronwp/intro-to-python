@@ -6,6 +6,8 @@ Control flow is the idea of deciding when, how, what, and how many times code sh
 
 Syntax: a set of `if`, `elif` (else if), and `else` blocks. The first condition that matches is run. `elif` can be repeated multiple times. If `else` is used, it must be the last block.
 
+Whitespace is important! Indentation decides what is run when a condition is `True`.
+
 ```py
 # eg 1
 if something is True:
@@ -66,10 +68,10 @@ for city in us_cities:
 Alternatively, you can iterate over list indices
 
 ```py
-for c in range(len(cities):
+for c in range(len(us_cities)):
     # this uses f-string syntax
     # https://docs.python.org/3/tutorial/inputoutput.html#formatted-string-literals
-    print(f"City {i}: {cities[i]}")
+    print(f"City {c}: {us_cities[c]}")
 ```
 
 ## `while` loops
@@ -150,8 +152,6 @@ ends_in_y(names)
 # ginny
 ```
 
-Head over to [part-4-objects-classes](./part-4-objects-classes/) to learn how to make your own types.
-
 ## Exercise 3.4 (Harder than you might think)
 
 Write a function, `mode`, that returns the mode of a list of numbers. If there is no mode, return `None`. Hint, there are many ways to solve this problem. You can use control flow logic alone or you can try using more advanced dictionary features like [`dict.setdefault`](https://docs.python.org/3/library/stdtypes.html#typesmapping) and [`dict.get`](https://docs.python.org/3/library/stdtypes.html#dict.get), and other built-in functions like [`max`](https://docs.python.org/3/library/functions.html#max).
@@ -163,3 +163,5 @@ mode(list_of_numbers) # 1
 another_list = [1, 2, 3]
 mode(another_list) # None
 ```
+
+Head over to [part-4-objects-classes](./part-4-objects-classes/) to learn how to make your own types.

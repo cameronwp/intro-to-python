@@ -80,4 +80,4 @@ print(hawkeye) # "Hawkeye, husky"
 
 See the [official documentation on `__str__`](https://docs.python.org/3/reference/datamodel.html#object.__str__).
 
-Head over to [part-5-imports](./part-5-imports/) to learn how to import and manage packages.
+Head over to [part-5-imports](/part-5-imports/) to learn how to import and manage packages.

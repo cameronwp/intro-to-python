@@ -20,7 +20,7 @@ subjects[0] # algebra
 subjects[4] # IndexError: list index out of range
 ```
 
-Note that the indices need to be integers, not float. This does not work, for example
+Note that the indices need to be integers, not floats. This does not work, for example
 
 ```py
 subjects[1.0] # TypeError: list indices must be integers or slices, not float
