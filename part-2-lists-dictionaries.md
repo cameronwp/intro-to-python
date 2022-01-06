@@ -157,27 +157,3 @@ if university["enrollment"]["grad"] > 5000:
 
 (According to Wikipedia, MIT has 4,638 undergrads and 7,296 grad students.)
 
-## Exercise 4
-
-Dictionaries can be elements in a list. Write a function that takes the given list of dictionaries and outputs the number of universities that are more than 150 years old.
-
-```py
-list_of_university_stats = [
-    {
-        "name": "MIT",
-        "year_founded": 1861
-    },
-    {
-        "name": "Harvard",
-        "year_founded": 1636
-    },
-    {
-        "name": "Vanderbilt",
-        "year_founded": 1873
-    },
-    {
-        "name": "Stanford",
-        "year_founded": 1885
-    }
-]
-```
