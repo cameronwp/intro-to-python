@@ -143,7 +143,23 @@ university["name"] = "Massachusetts Institute of Technology"
 print(university["name"]) # 'Massachusetts Institute of Technology'
 ```
 
+Dictionaries can be keyed by any Python type. For instance, you could key the months of the year like so:
+
+```py
+months = {1: "January", 2: "February", ...}
+```
+
 ## Exercise 3
+
+Elements in the `months` dictionary above can be accessed much like a list, eg.
+
+```py
+print(months[1]) # January
+```
+
+Think about the semantic differences between a dictionary and a list. When would using a number-keyed dictionary be preferrable to a list?
+
+## Exercise 4
 
 Values can also be dictionaries. Let's make the value held by the `"enrollment"` another dictionary that gives the undergrad and grad student enrollments separately. If your code is right, you should see the following:
 
@@ -156,4 +172,3 @@ if university["enrollment"]["grad"] > 5000:
 ```
 
 (According to Wikipedia, MIT has 4,638 undergrads and 7,296 grad students.)
-

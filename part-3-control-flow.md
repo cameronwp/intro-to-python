@@ -123,8 +123,8 @@ Write a for-loop to produce the first 10 numbers of the [Fibonacci sequence](htt
 
 ## Exercise 3
 
-You can slice strings, not just lists. Given the following list of names, print only the names that end with a `"y"`.
+You can slice strings, not just lists. Given the following list of names, print only the names that _end_ with a `"y"`.
 
 ```py
-names = ["alice", "becky", "cameron", "daisy", "evelyn", "franny", "ginny", "lydia"]
+names = ["amy", "becky", "cyrano", "daisy", "evelyn", "franny", "ginny", "lydia"]
 ```
