@@ -50,6 +50,14 @@ def median(elements):
 
 ```py
 def mean_and_median(numbers):
+    """
+    Get the mean and median of a list of numbers
+
+    Params:
+        numbers list of numbers
+    Returns:
+        mean float, median float tuple
+    """
     mean = sum(numbers) / len(numbers)
     half = math.floor(len(numbers) / 2)
     median = numbers[half - 1]
@@ -81,6 +89,12 @@ Simple solution
 
 ```py
 def old_school(universities):
+    """
+    Given a list of universities, return the number that are more than 150 years old
+
+    Params:
+        universities list of university objects with a "year_founded" property
+    """
     num_old = 0
     for uni in universities:
         if 2022 - uni["year_founded"] > 150:
@@ -93,6 +107,12 @@ Advanced (with [list comprehension](https://docs.python.org/3/tutorial/datastruc
 
 ```py
 def old_school(universities):
+    """
+    Given a list of universities, return the number that are more than 150 years old
+
+    Params:
+        universities list of university objects with a "year_founded" property
+    """
     # get the length of a new list that is filtered for old universities
     return len([
         uni for uni in universities
@@ -105,6 +125,12 @@ def old_school(universities):
 
 ```py
 def fibo(n):
+    """
+    Produce the first n numbers of the Fibonacci sequence
+
+    Params:
+        n integer
+    """
     result = []
     for i in range(n):
         if len(result) <= 1:
@@ -116,12 +142,33 @@ def fibo(n):
     return result
 ```
 
-## 3.4
+## 3.3
 
-This is a more advanced solution. See the comments
+```py
+def ends_in_y(names):
+    """
+    Print names that end in 'y'
+
+    Params
+        names list of strings
+    """
+    for name in names:
+        if name[-1] == "y":
+            print(name)
+```
+
+## 3.4
 
 ```py
 def mode(numbers):
+    """
+    Get the mode of a list of numbers
+
+    Params:
+        numbers list of numbers
+    Returns:
+        number
+    """
     # create a dictionary of the number of times I've seen each number
     seen = {}
     for number in numbers:
@@ -133,6 +180,29 @@ def mode(numbers):
     # the `max` function will give the biggest value in a collection. when we provide the `key` argument, we tell `max` what value to use when comparing to see what's biggest
     # try removing the `key=seen.get` to see what happens
     return max(seen, key=seen.get)
+```
+
+## 4
+
+```py
+class Dog:
+    """
+    An actual dog
+    """
+
+    def __init__(self, name, breed, is_female):
+        """
+        Set the properties of this dog
+        """
+        self.name = name
+        self.breed = breed
+        self.female = is_female
+        self.location = None
+
+    # ... same code as example
+
+    def __str__(self):
+        return f"{name}, {breed}"
 ```
 
 ## 5.1a

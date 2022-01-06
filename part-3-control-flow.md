@@ -137,10 +137,17 @@ fibo(10) # [1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
 
 ## Exercise 3.3
 
-You can slice strings, not just lists. Given the following list of names, print only the names that _end_ with a `"y"`.
+You can slice strings, not just lists. Given the following list of names, write a function, `ends_in_y`, that prints only the names that _end_ with a `"y"`.
 
 ```py
 names = ["amy", "becky", "cyrano", "daisy", "evelyn", "franny", "ginny", "lydia"]
+
+ends_in_y(names)
+# amy
+# becky
+# daisy
+# franny
+# ginny
 ```
 
 Head over to [part-4-objects-classes](./part-4-objects-classes/) to learn how to make your own types.
