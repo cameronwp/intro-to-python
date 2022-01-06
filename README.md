@@ -44,4 +44,4 @@ When you `import package`, it will first check your `.venv` directory
 
 I will be using VS Code with its integrated terminal from now on.
 
-To get started, head over to [](./part-1-hello-world.md).
+To get started, head over to [part-1-hello-world.md](./part-1-hello-world.md).
