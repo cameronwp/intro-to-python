@@ -202,11 +202,11 @@ value = function_name(parameter1, parameter2, ...) # if a function returns a val
 function_name(parameter1, parameter2, ...) # if a function does not return a value
 ```
 
-## Exercise 1
+## Exercise 1.1
 
 Write a function that takes someone's `name` as a string and prints `"Hello, {name}!"`
 
-## Exercise 2
+## Exercise 1.2
 
 Write a function called `sine` that takes the length of the side opposite of an angle and hypoteneuse of a right triangle as arguments and returns the sine. You should be able to use it like so
 

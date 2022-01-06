@@ -62,7 +62,7 @@ class NameOfClass(optional_super_class):
         return self.arg2 * arg3
 ```
 
-Let's look at a concrete example of a class and object in part-4-objects-classes.py.
+Let's look at a concrete example of a class and object in `part-4-objects-classes/dog.py`.
 
 ## Exercise 4.1
 

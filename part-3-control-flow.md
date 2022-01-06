@@ -88,7 +88,7 @@ while i < 5:
 
 When you need to write a loop, `for` should be your first instinct, but a `while` loop can come in handy too.
 
-## Exercise 1
+## Exercise 3.1
 
 Dictionaries can be elements in a list. Write a function that takes the given list of dictionaries and outputs the number of universities that are more than 150 years old.
 
@@ -117,11 +117,11 @@ university_stats = [
 ]
 ```
 
-## Exercise 2
+## Exercise 3.2
 
 Write a for-loop to produce the first 10 numbers of the [Fibonacci sequence](https://en.wikipedia.org/wiki/Fibonacci_number).
 
-## Exercise 3
+## Exercise 3.3
 
 You can slice strings, not just lists. Given the following list of names, print only the names that _end_ with a `"y"`.
 

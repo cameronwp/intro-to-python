@@ -86,11 +86,11 @@ for row in matrix:
     print(sum(row))
 ```
 
-## Exercise 1
+## Exercise 2.1
 
 Write a function that takes a list of elements and returns the median (middle) element. If the length of the list is even, return the median element with a lower index.
 
-## Exercise 2
+## Exercise 2.2
 
 A tuple is basically a lighter-weight verion of a list, mainly used in function returns. You can write them with parenthesis, like `(element0, element1). Write a function that takes the following list of numbers and returns the mean and median in a tuple.
 
@@ -149,7 +149,7 @@ Dictionaries can be keyed by any Python type. For instance, you could key the mo
 months = {1: "January", 2: "February", ...}
 ```
 
-## Exercise 3
+## Exercise 2.3
 
 Elements in the `months` dictionary above can be accessed much like a list, eg.
 
@@ -159,7 +159,7 @@ print(months[1]) # January
 
 Think about the semantic differences between a dictionary and a list. When would using a number-keyed dictionary be preferrable to a list?
 
-## Exercise 4
+## Exercise 2.4
 
 Values can also be dictionaries. Let's make the value held by the `"enrollment"` another dictionary that gives the undergrad and grad student enrollments separately. If your code is right, you should see the following:
 
