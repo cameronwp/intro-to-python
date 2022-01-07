@@ -202,7 +202,7 @@ class Dog:
     # ... same code as example
 
     def __str__(self):
-        return f"{name}, {breed}"
+        return f"{self.name}, {self.breed}"
 ```
 
 ## 5.1a
