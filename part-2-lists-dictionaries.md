@@ -106,7 +106,7 @@ print(median(another_list_of_numbers)) # 9
 
 ## Exercise 2.2
 
-A tuple is basically a lighter-weight verion of a list, mainly used in function returns. You can write them with parenthesis, like `(element0, element1). Write a function, `mean_and_median`, that takes the following list of numbers and returns the mean and median in a tuple.
+A tuple is basically a lighter-weight verion of a list, mainly used in function returns. You can write them with parenthesis, like `(element0, element1)`. Write a function, `mean_and_median`, that takes the following list of numbers and returns the mean and median in a tuple.
 
 ```py
 list_of_numbers = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
